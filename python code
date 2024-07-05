@@ -1,0 +1,8 @@
+# python code
+
+import os
+import clipboard
+
+global text1
+text = input("what text do you wanna copy:")
+clipboard.copy(text)
